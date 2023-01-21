@@ -50,7 +50,6 @@ const char ALPHANUMBERICS[]=
 
 ms_setting_st ms_setting;       /* store the settings specified by user */
 
-
 /* read setting from configuration file */
 static void ms_get_serverlist(char *str);
 static uint32_t ms_get_cpu_count(void);

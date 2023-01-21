@@ -45,6 +45,10 @@
 #define OPTIONSTRING const char*
 #endif
 
+ms_global_t ms_global;
+ms_stats_t ms_stats;
+ms_statistic_t ms_statistic;
+
 /* options */
 static struct option long_options[]=
 {
